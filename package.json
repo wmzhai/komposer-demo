@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/wmzhai/next/issues"
   },
-  "homepage": "https://github.com/wmzhai/next#readme"
+  "homepage": "https://github.com/wmzhai/next#readme",
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-mounter": "^1.0.0"
+  }
 }
