@@ -1,21 +1,19 @@
 import React from 'react';
 import {WelcomeComponent} from './WelcomeComponent.jsx';
+import {Clock} from './Clock.jsx';
 import {mount} from 'react-mounter';
 
 const MainLayout = ({content}) => (
   <div>
     <header>
-      This is our header
+      <h1> Welcome to Meteor </h1>
     </header>
     <main>
       {content}
     </main>
-    <footer>
-      This is our footer.
-    </footer>
   </div>
 );
 
 mount(MainLayout, {
-  content: <WelcomeComponent name="Meteor" />
+  content: <Clock />
 });
