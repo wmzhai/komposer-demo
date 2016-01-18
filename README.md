@@ -1,1 +1,1 @@
-# Demo Meteor 1.3
+# 演示`react-composer`的使用
